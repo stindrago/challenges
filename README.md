@@ -17,9 +17,9 @@ La difficoltà delle _challenge_ sono misurate in _mal di testa_ 🤕. Più _mal
 | Challenge                                                                                 | Difficoltà |
 |-------------------------------------------------------------------------------------------|-----------:|
 | [Challenge 1][dir-challenge-1] - Crea una macchina virtuale Ubuntu Server                 |         🤕 |
-| [Challenge 2][dir-challenge-2] - TODO: Utilizzare git e Gitlab                            |         🤕 |
-| [Challenge 3][dir-challenge-3] - TODO: Navigare nella shell                               |       🤕🤕 |
-| [Challenge 4][cve-2021-3156] - TODO: Privilege escalation: [CVE-2021-3156][cve-2021-3156] | 🤕🤕🤕🤕 |
+| [Challenge 2][dir-challenge-2] - TODO: Navigare nella shell                               |       🤕🤕 |
+| [Challenge 3][dir-challenge-3] - TODO: Utilizzare git e Gitlab                            |         🤕 |
+| [Challenge 4][cve-2021-3156] - TODO: Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
 
 ## Partecipa Alla Challenge
 
@@ -29,7 +29,7 @@ Se vuoi partecipare alla challenge e pubblicare i tuoi risultati segui le prossi
 2. Inserisci i file in una nuova cartella `challenge-N/deliverable/gitlab-username/`, con `gitlab-username` il tuo nome utente Gitlab.
 3. Invia una merge request per rendere disponibile il tuo contributo.
 
-> Sei non sai come si fa leggi la [challenge-2][dir-challenge-2].
+> Sei non sai come si fa leggi la [challenge-3][dir-challenge-3].
 
 Per vedere i risultati dei altri partecipanti, visita la directory `challenge-N/deliverable/`.
 
