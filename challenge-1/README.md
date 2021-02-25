@@ -37,7 +37,7 @@ Cosa hanno in comune i nomi in questa lista?
 - Elenca altri 5 sistemi operativi che conosci.
 - Quali di loro sono sistemi operativi per computer, quali per mobile?
 
-Ora che ti sei fatto un idea a cosa ci rifermiamo con il termine _sistema operativo_, capire che cos'è la macchina virtuale non sarà poi tanto difficile. La macchina virtuale è un ambiente virtuale (un software) che simula l'esistenza di un dispositivo fisico, nel nostro caso un computer. Sul tuo computer puoi quindi girare un sistema operativo principale (Windows) e sopra virtualizzato un nuovo sistema operativo (Ubuntu).
+Ora che ti sei fatto un idea a cosa ci rifermiamo con il termine _sistema operativo_, capire il significato di macchina virtuale non sarà difficile. La macchina virtuale è un ambiente virtuale (un software) che simula l'esistenza di un dispositivo fisico, nel nostro caso un computer. Sul tuo computer puoi quindi girare un sistema operativo principale (Windows) e su di esso uno virtualizzato (Ubuntu e altri). Ubuntu puo fungere anche da sistema operativo principale.
 
 Non ce limite al numero di ambienti virtualizzati che puoi creare ed eseguire simultaneamente, fintanto che le risorse del tuo computer non si esauriscono (potenza di calcolo e memoria).
 
@@ -51,14 +51,14 @@ Windows 10
 Poi basta perché il computer sarà probabilmente esploso.
 ```
 
-> I sistemi operativi si distinguono per architettura che indica il tipo di elaboratore (CPU) presente nel dispositivo. Un sistema operativo come Windows 10 che necessita di architettura x86 non potrà mai essere installato su un dispositivo mobile (architettura arm). Tuttavia le tecnologie di _virtualizzazione_ moderne lo rendono possibile. Esistono anche sistemi operativi detti multi-architettura come ad esempio Debian che gira probabilmente su tutto.
+> I sistemi operativi si distinguono per architettura che indica il tipo di elaboratore (CPU) presente nel dispositivo. Un sistema operativo come Android che necessita di architettura ARM non potrà mai essere installato su un computer desktop (architettura x86). Tuttavia le tecnologie di _virtualizzazione_ moderne lo rendono possibile (chi sviluppa APP lo sa). Esistono anche sistemi operativi  _multi-architettura_ come ad esempio Debian che gira probabilmente anche su hardware alieno.
 
-Ci sono molti modi per creare una macchina virtuale. Tratteremo solo due casi.
+Ci sono molti modi per creare una macchina virtuale. Tratteremo due casi.
 
 1. Utilizzando il metodo tradizionale con [Virtual Box](#virtual-box) (lungo e noioso).
 1. Utilizzando tecnologie più moderne con [Multipass](#multipass) 😏 (semplice e veloce).
 
-> Se hai già come sistema operativo principale una distribuzione GNU/Linux e pensi di poter saltare questo passaggio ti consiglio vivamente di non farlo. Installa Ubuntu 20.04 LTS sulla macchina virtuale, perché sarà più facile per te seguire le challenge e sperimentare all'interno di un ambiente sicuro.
+> Se hai già come sistema operativo principale una distribuzione GNU/Linux e pensi di poter saltare questo passaggio ti consiglio vivamente di non farlo, potresti perdere un dito o tutta la mano sfortunatamente. Installa Ubuntu 20.04 LTS sulla macchina virtuale, perché sarà più facile seguire le challenge e sperimentare all'interno di un ambiente sicuro.
 
 <a id="virtual-box"></a>
     
@@ -66,7 +66,7 @@ Ci sono molti modi per creare una macchina virtuale. Tratteremo solo due casi.
 
 Prima di procedere con le istruzioni scarica l'ISO con [Ubuntu Server 20.04 LTS][ubuntu-downlad-server] per l'installazione manuale. Sei il sito crea confusione utilizza il [dowload diretto][ubuntu-server-manual-download].
 
-Scarica ed installa [Virtual Box][virtual-box], scegli la versione compatibile  il tuo sistema operativo.
+Scarica ed installa [Virtual Box][virtual-box], scegli la versione compatibile con  il tuo sistema operativo.
 
 Se la lingua del programma è in inglese cambiala in `Tools -> Preferences -> Language`.
 
@@ -112,9 +112,9 @@ Abbiamo finito il processo di creazione della macchina virtuale. Tuttavia non pu
 
 Quindi click su `Avvia` per avviare la macchina virtuale. Nella prima scheda ti verrà chiesto di inserire il percorso dell'ISO con Ubuntu scaricata poco fa.
 
-Fatto questo segui le istruzioni mostrate sullo schermo per completare l'installazione di Ubuntu. Se i passaggi da qui in poi sono troppo difficili ho trovato [questo video su Youtube][youtube-install-ubuntu] che potrebbe aiutarti. In alternativa usa [Multipass](#multipass).
+Fatto questo segui le istruzioni mostrate sullo schermo per completare l'installazione di Ubuntu. Se i passaggi da qui in poi sono troppo difficili segui [questo video su Youtube][youtube-install-ubuntu] che potrebbe aiutarti. In alternativa usa [Multipass](#multipass).
 
-> Ti ho avvertito che questo è un processo lungo e noioso. Purtroppo è uno dei pochi modi disponibili per virtualizzare sistemi operativi come Windows o Hackintosh.
+> Ti ho avvertito che questo è un processo lungo e noioso. Purtroppo è uno dei pochi modi disponibili per virtualizzare sistemi operativi come Windows o Hackintosh. Questi due cercano di fare gli alternativi...
 
 ### Prova tu
 
@@ -127,7 +127,7 @@ Fatto questo segui le istruzioni mostrate sullo schermo per completare l'install
 
 Scarcia ed installa [Multipass][multipass-download].
 
-Apri il terminale se usi una distribuzione GNU/Linux o MacOS. Se usi Wndows invece apri la Powershell come amministratore.
+Se usi una distribuzione GNU/Linux o MacOS apri il terminale. Se usi Windows invece apri la Powershell come amministratore.
 
 Ora inserisci i prossimi comandi all'interno del terminale.
 
@@ -149,7 +149,7 @@ Apri una shell
 multipass shell ubuntu-challenge
 ```
 
-🤯 Tutto qui? Si.
+tutto più semplice e veloce.
 
 > Per uscire dalla shell della macchina virtuale usa il comando `exit`. Una shell è un istanza del terminale (dove esegui i comandi).  Faremo uso di questo termine a lungo, meglio conoscerne il significato.
 
@@ -165,3 +165,13 @@ multipass stop ubuntu-challenge
 - Crea una nuova macchina virtuale Ubuntu versione `18.04`  e  nome `ubuntu-prova`.
 - Esegui il comando  `multipass list` nel terminale del tuo sistema operativo principale. Qualè l'output?
 - Esegui il comando  `multipass help`.
+
+## Riassunto
+
+In questa challenge abbiamo imparato come che cosa si intende per sistema operativo e macchina virtuale. Abbiamo visto come utilizzare diverse tecnologie ma anche
+- Esistono tanti sistemi operativi per architetture diversi.
+- Come creare una macchina virtuale.
+- Quali sono le tecnologie di virtualizzazione
+- Come creare con facilità una macchina virtuale con Multipass.
+
+Nella prossima challenge aprofondiamo di più l'utilizzo della shell.
