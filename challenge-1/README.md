@@ -1,15 +1,19 @@
 [gitlab]: https://gitlab.com/
-[ubuntu-downlad]: https://ubuntu.com/#download/
+[ubuntu-downlad-server]: https://ubuntu.com/download/server/
+[ubuntu-server-manual-download]: https://releases.ubuntu.com/20.04.2/ubuntu-20.04.2-live-server-amd64.iso/
 [virtual-box]: https://www.virtualbox.org/
+[windows-download]: https://www.microsoft.com/it-it/software-download/windows10ISO/
+[multipass-download]: https://multipass.run/
+[youtube-install-ubuntu]: https://youtu.be/EWAnQivQMw8?t=150
 
 # Challenge 1 - Installa Ubuntu
 
-Benvenuto. In questa challenge scoprirai come installare e configurare una macchina linux. Questa e' solo la prima challenge e presto ne seguiranno altre più difficili. Prima concentrati ad avere lo strumento principale per poter completare le altre challenge.
+Benvenuto. In questa challenge scoprirai come installare e configurare una macchina linux. Questa è solo la prima challenge e presto ne seguiranno altre più difficili. Concentriamoci inizialmente a fornirti gli strumenti necessari per completare le challenge future.
 
 ## In Questa Challenge
 
-- Installa [Ubuntu 20.04 LTS][ubuntu-downlad] sulla macchina virtuale.
-- Configura il _Sistema Operativo_.
+- Installa un gestore di macchine virtuali.
+- Crea una nuova macchina virtuale [Ubuntu Server 20.04 LTS][ubuntu-downlad-server].
 
 ## Introduzione
 
@@ -23,37 +27,141 @@ Cosa hanno in comune i nomi in questa lista?
 - Ubuntu 20.04 LTS.
 - Android.
 
->!  Sono tutti quanti sistemi operativi. I primi quattro per computer, l'ultimo per mobile. 
+<details>
+<summary>> Spoiler ⚠️</summary>
+<p>> Sono tutti quanti sistemi operativi. I primi quattro per computer, l'ultimo per mobile.</p>
+</details> 
 
-## Prova Tu
+### Prova tu
 
 - Elenca altri 5 sistemi operativi che conosci.
 - Quali di loro sono sistemi operativi per computer, quali per mobile?
 
-Ora che hai capito che cos'è un sistema operativo, capire che cos'è la macchina virtuale sarà più facile. La macchina virtuale e' un ambiente virtuale (un software) che simula l'esistenza di un dispositivo fisico, nel nostro caso un computer. Sul tuo computer puoi quindi girare un sistema operativo di base (Windows) e sopra virtualizzato un nuovo sistema operativo (Ubuntu). Non ce limite a quanti ambienti virtualizzati puoi girare in simultanea o per lo meno finché le risorse del tuo computer non si esauriscono (potenza di calcolo e memoria).
+Ora che ti sei fatto un idea a cosa ci rifermiamo con il termine _sistema operativo_, capire che cos'è la macchina virtuale non sarà poi tanto difficile. La macchina virtuale è un ambiente virtuale (un software) che simula l'esistenza di un dispositivo fisico, nel nostro caso un computer. Sul tuo computer puoi quindi girare un sistema operativo principale (Windows) e sopra virtualizzato un nuovo sistema operativo (Ubuntu).
+
+Non ce limite al numero di ambienti virtualizzati che puoi creare ed eseguire simultaneamente, fintanto che le risorse del tuo computer non si esauriscono (potenza di calcolo e memoria).
 
 ```
-Windows-10
-    └── Ubuntu-20.04-LTS
-        ├── Debian-10 
-        ├── Debian-9a
-        └── Ubuntu-20.04-LTS
-            ├── Debian-10
-            └── Windows-10
-                └── Ubuntu-20.04-LTS
+Windows 10
+    ├── Debian Server 10 
+    ├── Debian Desktop 10
+    ├── Ubuntu Server 20.04 LTS
+    └── Windows 10
 
 Poi basta perché il computer sarà probabilmente esploso.
 ```
 
-> I sistemi operativi di base poi si distinguono per architettura che indica il tipo di elaboratore (CPU) presente nel dispositivo. Un sistema operativo come Windows 10 che necessita di architettura 64_x86 non potrà mai essere installato su un dispositivo mobile (architettura arm). Grazie pero' alle tecnologie di _virtualizzazione_ e' possibile, ma tutto questo e' al di fuori di questa challenge.
+> I sistemi operativi si distinguono per architettura che indica il tipo di elaboratore (CPU) presente nel dispositivo. Un sistema operativo come Windows 10 che necessita di architettura x86 non potrà mai essere installato su un dispositivo mobile (architettura arm). Tuttavia le tecnologie di _virtualizzazione_ moderne lo rendono possibile. Esistono anche sistemi operativi detti multi-architettura come ad esempio Debian che gira probabilmente su tutto.
 
-## Istruzioni
+Ci sono molti modi per creare una macchina virtuale. Tratteremo solo due casi.
 
-### Installa Virtual Box
+1. Utilizzando il metodo tradizionale con [Virtual Box](#virtual-box) (lungo e noioso).
+1. Utilizzando tecnologie più moderne con [Multipass](#multipass) 😏 (semplice e veloce).
 
-Il programma che utilizzerai in questa challenge e' [Virtual Box][virtual-box]. Scarica la versione compatibile per il tuo sistema operativo dal sito ufficiale.
+> Se hai già come sistema operativo principale una distribuzione GNU/Linux e pensi di poter saltare questo passaggio ti consiglio vivamente di non farlo. Installa Ubuntu 20.04 LTS sulla macchina virtuale, perché sarà più facile per te seguire le challenge e sperimentare all'interno di un ambiente sicuro.
 
-> Se hai già come sistema operativo di base una distribuzione Linux e pensi di poter saltare questo passaggio ti consiglio vivamente di non farlo. Installa Ubuntu 20.04 LTS sulla macchina virtuale, perché sarà più facile per te seguire le challenge ed eseguire i comandi in un ambiente sicuro.
+<a id="virtual-box"></a>
+    
+##  Installa Ubuntu Con Virtual Box
 
-### Aggiungi Una Macchina Virtuale
+Prima di procedere con le istruzioni scarica l'ISO con [Ubuntu Server 20.04 LTS][ubuntu-downlad-server] per l'installazione manuale. Sei il sito crea confusione utilizza il [dowload diretto][ubuntu-server-manual-download].
 
+Scarica ed installa [Virtual Box][virtual-box], scegli la versione compatibile  il tuo sistema operativo.
+
+Se la lingua del programma è in inglese cambiala in `Tools -> Preferences -> Language`.
+
+## Crea Una Macchina Virtuale
+
+Dal menù a tendina in alto clicca su `Macchina -> Nuova Macchina`.
+
+**Nome e sistema operativo**
+
+Introduci le informazioni generali della nuova macchina virtuale.
+
+```
+Nome: ubuntu-challenge
+Cartelle della macchina: <predefinito> # Non cambiare nulla
+Tipo: Linux
+Versione: Ubuntu (64-bit)
+```
+
+> Il carattere `#` indica che il testo che segue è solo un commento.
+
+Clicca `Continua`.
+
+**Dimensione della memoria**
+
+Seleziona la quantità di memoria RAM da assegnare alla macchina virtuale. Posiziona la freccia al confine tra il colore verde e l'arancione. Assicurati che la memoria sia almeno 1024 MB.
+
+Clicca `Continua`.
+
+Nelle prossime tre schede lascia i valori predefiniti, clicca semplicemente `Crea -> Contiuna -> Continua`.
+
+1. **Disco fisso**:  `Crea subito un nuovo disco virtuale`  selezionato.
+1. **Tipo di file del disco fisso**: `VDI`  selezionato.
+1. **Archiviazione su disco fisico fisso**: `Allocato dinamicamente` selezionato.
+
+**Posizione file e dimensione**
+
+Questa scheda è importante e conviene spiegarla.
+
+1. Non cambiare il percorso di destinazione, non è altro che l'unione del percorso `Cartelle della macchina` e il nome  `ubuntu-challenge`  che hai scelto nella prima scheda.
+2. Assegna 20GB di memoria alla macchina . Questa memoria non verrà sottratta immediatamente al sistema operativo principale perche la macchina virtuale utilizzerà un allocamento dinamico. Potrà essere comunque cambiata successivamente nelle impostazioni di Virutal Box.
+
+Abbiamo finito il processo di creazione della macchina virtuale. Tuttavia non puoi ancora utilizzare il nuovo sistema operativo perche non è ancora installato. Ti ricordi l'ISO che hai scaricato poco fa? La utilizzerai per installare il sistema operativo.
+
+Quindi click su `Avvia` per avviare la macchina virtuale. Nella prima scheda ti verrà chiesto di inserire il percorso dell'ISO con Ubuntu scaricata poco fa.
+
+Fatto questo segui le istruzioni mostrate sullo schermo per completare l'installazione di Ubuntu. Se i passaggi da qui in poi sono troppo difficili ho trovato [questo video su Youtube][youtube-install-ubuntu] che potrebbe aiutarti. In alternativa usa [Multipass](#multipass).
+
+> Ti ho avvertito che questo è un processo lungo e noioso. Purtroppo è uno dei pochi modi disponibili per virtualizzare sistemi operativi come Windows o Hackintosh.
+
+### Prova tu
+
+- Cosa succede se crei una macchina virtuale assegnando tutta la memoria RAM disponibile?
+- Crea una nuova macchina virtuale Windows 10. Scarica l'ISO dal [sito ufficiale][windows-download].
+
+<a id="multipass"></a>
+
+##  Installa Ubuntu Con Multipass
+
+Scarcia ed installa [Multipass][multipass-download].
+
+Apri il terminale se usi una distribuzione GNU/Linux o MacOS. Se usi Wndows invece apri la Powershell come amministratore.
+
+Ora inserisci i prossimi comandi all'interno del terminale.
+
+Crea una nuova macchina virtuale
+
+``` shell
+multipass launch 20.04 --name ubuntu-challenge
+```
+
+Avvia la macchina virtuale
+
+``` shell
+multipass start ubuntu-challenge
+```
+
+Apri una shell
+
+``` shell
+multipass shell ubuntu-challenge
+```
+
+🤯 Tutto qui? Si.
+
+> Per uscire dalla shell della macchina virtuale usa il comando `exit`. Una shell è un istanza del terminale (dove esegui i comandi).  Faremo uso di questo termine a lungo, meglio conoscerne il significato.
+
+Ricordati di spegnere la macchina quando hai finito 👌
+
+``` shell
+multipass stop ubuntu-challenge
+```
+
+### Prova tu
+
+- Esegui il comando  `multipass find` e trova la versione di Ubuntu che hai appena installato.
+- Crea una nuova macchina virtuale Ubuntu versione `18.04`  e  nome `ubuntu-prova`.
+- Esegui il comando  `multipass list` nel terminale del tuo sistema operativo principale. Qualè l'output?
+- Esegui il comando  `multipass help`.
