@@ -10,7 +10,7 @@ Benvenuto a **Challenges** la nuova modalità di acquisizione di super-poteri in
 
 **Challenges** garantisce follia pura per rendere il tuo tempo libero un vero incubo.
 
-La difficoltà delle _challenge_ sono misurate in _mal di testa_ 🤕. Più _mal di testa_ sono presenti nella challenge e più probabilmente ti arrenderai.
+La difficoltà delle _challenge_ sono misurate in _mal di testa_ 🤕. Più _mal di testa_ sono assegnati alla challenge e più sara probabile che ti arrenda.
 
 ## Challenge Disponibili
 
@@ -35,7 +35,7 @@ Per vedere i risultati dei altri partecipanti, visita la directory `challenge-N/
 
 ## Crea Una Nuova Challenge
 
-Se hai intenzione di collaborare per anche tu una nuova challenge da aggiungere alla lista devi seguire alcune linee guida.
+Se hai intenzione di collaborare e creare una nuova challenge da aggiungere al _roster_ devi alcune linee guida.
 
 Per prima cosa, fai il fork di questo progetto.
 
