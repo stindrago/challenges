@@ -28,8 +28,8 @@ Cosa hanno in comune i nomi in questa lista?
 - Android.
 
 <details>
-<summary>> Spoiler ⚠️</summary>
-<p>> Sono tutti quanti sistemi operativi. I primi quattro per computer, l'ultimo per mobile.</p>
+<summary> Spoiler ⚠️</summary>
+<p> Sono tutti quanti sistemi operativi. I primi quattro per computer, l'ultimo per mobile.</p>
 </details> 
 
 ### Prova tu
