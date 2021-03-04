@@ -149,7 +149,11 @@ Apri una shell
 multipass shell ubuntu-challenge
 ```
 
+<<<<<<< HEAD
 🤯 Tutto qui? Si, con Multipass e' più semplice e veloce.
+=======
+tutto più semplice e veloce.
+>>>>>>> bf754b1868f02d686f589a9b657bb72b10c216a3
 
 > Per uscire dalla shell della macchina virtuale usa il comando `exit`. Una shell è un istanza del terminale (dove esegui i comandi).  Faremo uso di questo termine a lungo, meglio conoscerne il significato.
 
@@ -168,6 +172,7 @@ multipass stop ubuntu-challenge
 
 ## Riassunto
 
+<<<<<<< HEAD
 In questa challenge abbiamo imparato cosa si intende per sistema operativo e macchina virtuale. Abbiamo visto come utilizzare diverse tecnologie ma anche
 - Esistono tanti sistemi operativi per architetture diverse.
 - Quali sono le tecnologie di virtualizzazione.
@@ -175,3 +180,12 @@ In questa challenge abbiamo imparato cosa si intende per sistema operativo e mac
 - Come creare una macchina virtuale con Multipass in pochi minuti.
 
 Nella prossima challenge aprofondiremo di più l'utilizzo della shell.
+=======
+In questa challenge abbiamo imparato come che cosa si intende per sistema operativo e macchina virtuale. Abbiamo visto come utilizzare diverse tecnologie ma anche
+- Esistono tanti sistemi operativi per architetture diversi.
+- Come creare una macchina virtuale.
+- Quali sono le tecnologie di virtualizzazione
+- Come creare con facilità una macchina virtuale con Multipass.
+
+Nella prossima challenge aprofondiamo di più l'utilizzo della shell.
+>>>>>>> bf754b1868f02d686f589a9b657bb72b10c216a3
