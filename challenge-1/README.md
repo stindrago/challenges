@@ -5,6 +5,7 @@
 [windows-download]: https://www.microsoft.com/it-it/software-download/windows10ISO/
 [multipass-download]: https://multipass.run/
 [youtube-install-ubuntu]: https://youtu.be/EWAnQivQMw8?t=150
+[dir-challenge-2]: ../challenge-2/
 
 # Challenge 1 - Installa Ubuntu
 
@@ -174,8 +175,6 @@ In questa challenge abbiamo imparato come che cosa si intende per sistema operat
 - Quali sono le tecnologie di virtualizzazione
 - Come creare con facilità una macchina virtuale con Multipass.
 
-Nella prossima challenge aprofondiamo di più l'utilizzo della shell.
-
 ## Challenge 1
 
 - Crea 5 macchine virtuali in 1 minuto.
@@ -184,3 +183,5 @@ Nella prossima challenge aprofondiamo di più l'utilizzo della shell.
   + Una macchina _Ubuntu 20.04 LTS_ con nome "ubuntu-2004-LTS"
   + Una macchina _Ubuntu 20.10_ con nome "ubuntu-2010"
   + Una macchina _Ubuntu 20.10_ con nome "ubuntu-2010-bis"
+
+Nella [challenge 2][dir-challenge-2] aprofondiremo di più l'utilizzo della shell.
