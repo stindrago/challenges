@@ -149,11 +149,7 @@ Apri una shell
 multipass shell ubuntu-challenge
 ```
 
-<<<<<<< HEAD
 🤯 Tutto qui? Si, con Multipass e' più semplice e veloce.
-=======
-tutto più semplice e veloce.
->>>>>>> bf754b1868f02d686f589a9b657bb72b10c216a3
 
 > Per uscire dalla shell della macchina virtuale usa il comando `exit`. Una shell è un istanza del terminale (dove esegui i comandi).  Faremo uso di questo termine a lungo, meglio conoscerne il significato.
 
@@ -172,15 +168,6 @@ multipass stop ubuntu-challenge
 
 ## Riassunto
 
-<<<<<<< HEAD
-In questa challenge abbiamo imparato cosa si intende per sistema operativo e macchina virtuale. Abbiamo visto come utilizzare diverse tecnologie ma anche
-- Esistono tanti sistemi operativi per architetture diverse.
-- Quali sono le tecnologie di virtualizzazione.
-- Come creare una macchina virtuale con Virtual Box.
-- Come creare una macchina virtuale con Multipass in pochi minuti.
-
-Nella prossima challenge aprofondiremo di più l'utilizzo della shell.
-=======
 In questa challenge abbiamo imparato come che cosa si intende per sistema operativo e macchina virtuale. Abbiamo visto come utilizzare diverse tecnologie ma anche
 - Esistono tanti sistemi operativi per architetture diversi.
 - Come creare una macchina virtuale.
@@ -188,4 +175,12 @@ In questa challenge abbiamo imparato come che cosa si intende per sistema operat
 - Come creare con facilità una macchina virtuale con Multipass.
 
 Nella prossima challenge aprofondiamo di più l'utilizzo della shell.
->>>>>>> bf754b1868f02d686f589a9b657bb72b10c216a3
+
+## Challenge 1
+
+- Crea 5 macchine virtuali in 1 minuto.
+  + Una macchina _Ubuntu 16.04 LTS_ con nome "ubuntu-1604-LTS"
+  + Una macchina _Ubuntu 18.04 LTS_ con nome "ubuntu-1804-LTS"
+  + Una macchina _Ubuntu 20.04 LTS_ con nome "ubuntu-2004-LTS"
+  + Una macchina _Ubuntu 20.10_ con nome "ubuntu-2010"
+  + Una macchina _Ubuntu 20.10_ con nome "ubuntu-2010-bis"
