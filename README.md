@@ -3,6 +3,7 @@
 [dir-challenge-3]: ./challenge-3
 [dir-challenge-4]: ./challenge-4
 [cve-2021-3156]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3156
+[dir-challenge-5]: ./challenge-5
 
 # Challenges
 
@@ -14,12 +15,13 @@ La difficoltà delle _challenge_ sono misurate in _mal di testa_ 🤕. Più _mal
 
 ## Challenge Disponibili
 
-| Challenge                                                                                 | Difficoltà |
-|-------------------------------------------------------------------------------------------|-----------:|
-| [Challenge 1][dir-challenge-1] - Crea una macchina virtuale Ubuntu Server                 |         🤕 |
-| [Challenge 2][dir-challenge-2] - TODO: Navigare nella shell                               |       🤕🤕 |
-| [Challenge 3][dir-challenge-3] - TODO: Utilizzare git e Gitlab                            |         🤕 |
-| [Challenge 4][cve-2021-3156] - TODO: Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
+| Challenge                                                                                   | Difficoltà |
+|---------------------------------------------------------------------------------------------|-----------:|
+| [Challenge 1][dir-challenge-1] - Crea una macchina virtuale Ubuntu Server                   |         🤕 |
+| [Challenge 2][dir-challenge-2] - TODO: Navigare nella shell                                 |       🤕🤕 |
+| [Challenge 3][dir-challenge-3] - TODO: Utilizzare git e Gitlab                              |       🤕🤕 |
+| [Challenge 4][dir-challenge-4] - TODO: Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
+| [Challenge 5][dir-challenge-5] - TODO: WIFI Penetration in modalita promiscua               | 🤕🤕🤕🤕🤕 |
 
 ## Partecipa Alla Challenge
 
