@@ -185,3 +185,9 @@ In questa challenge abbiamo imparato come che cosa si intende per sistema operat
   + Una macchina _Ubuntu 20.10_ con nome "ubuntu-2010-bis"
 
 Nella [challenge 2][dir-challenge-2] aprofondiremo di più l'utilizzo della shell.
+
+## Troubleshooting
+
+- Per installare multipass devi aver installato Virtual Box.
+- `UUID error`: Disinstalla Virtual Box e Multipass poi reinstalla.
+- `virtual error`: Abilita la _virtualizzazione hardware (SVM)_ nel BIOS.
