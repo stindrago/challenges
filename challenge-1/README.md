@@ -40,7 +40,7 @@ Cosa hanno in comune i nomi in questa lista?
 
 Ora che ti sei fatto un idea a cosa ci rifermiamo con il termine _sistema operativo_, capire il significato di macchina virtuale non sarà difficile. La macchina virtuale è un ambiente virtuale (un software) che simula l'esistenza di un dispositivo fisico, nel nostro caso un computer. Sul tuo computer puoi quindi girare un sistema operativo principale (Windows) e su di esso uno virtualizzato (Ubuntu e altri). Ubuntu puo fungere anche da sistema operativo principale.
 
-Non ce limite al numero di ambienti virtualizzati che puoi creare ed eseguire simultaneamente, fintanto che le risorse del tuo computer non si esauriscono (potenza di calcolo e memoria).
+Non c'è limite al numero di ambienti virtualizzati che puoi creare ed eseguire simultaneamente, fintanto che le risorse del tuo computer non si esauriscono (potenza di calcolo e memoria).
 
 ```
 Windows 10
@@ -126,7 +126,7 @@ Fatto questo segui le istruzioni mostrate sullo schermo per completare l'install
 
 ##  Installa Ubuntu Con Multipass
 
-Scarcia ed installa [Multipass][multipass-download].
+Scarica ed installa [Multipass][multipass-download].
 
 Se usi una distribuzione GNU/Linux o MacOS apri il terminale. Se usi Windows invece apri la Powershell come amministratore.
 
