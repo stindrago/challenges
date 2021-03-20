@@ -40,10 +40,9 @@ Verifica se _git_ e' gia installato sulla tua macchina
 git --version
 ```
 
-Altrimenti installalo su ubuntu
+Altrimenti installalo su ubuntu o una qualunque distribuzione derivata da Debian GNU/Linux
 
 ``` shell
-sudo apt-add-repository ppa:git-core/ppa
 sudo apt update
 sudo apt install git
 ```
@@ -179,7 +178,7 @@ Una volta che hai creato il progetto puoi clonarlo su diverse macchine.
 Clona il repository delle challenge, clicca sul pulsante blu _Clona_ e copia il testo sotto _Clone with SSH_.
 
 ``` shell
-git clone git@gitlab.com:stindrago/pirmo-repo.git       # clona il repository
+git clone git@gitlab.com:stindrago/primo-repo.git       # clona il repository
 ```
 
 - `git@` indica l'utilizzo di un collegamento ssh
