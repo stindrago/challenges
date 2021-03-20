@@ -304,7 +304,7 @@ git log --author="Costin"
 
 - TODO
 
-## Challenge 4
+## Challenge 3
 
 - Fai il fork del repository [challenges][challenges].
 - Crea una directory personale con l'username di gitlab in `challenge-3/deliverable/`.
