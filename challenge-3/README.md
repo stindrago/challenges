@@ -7,7 +7,7 @@
 [gitlab-new-project]: https://gitlab.com/projects/new
 [image-branching]: https://rogerdudler.github.io/git-guide/img/branches.png
 
-# Challenge 4 - Utilizza git e GitLab
+# Challenge 3 - Utilizza git e GitLab
 
 ## In Questa Challenge
 
@@ -30,7 +30,7 @@ In questa challenge tratteremo anche GitLab. Sanno tutti che e' un software migl
 Git e' presente per la maggior parte dei sistemi operativi
  - [MacOS][download-git-mac-os]
  - [Windows][download-git-windows]
- - [Distribuzioni GNU/Linux][download-git-gun-linux]
+ - [Distribuzioni GNU/Linux][download-git-gnu-linux]
 
 ## Git Da Linea Di Comando
 
