@@ -307,9 +307,9 @@ git log --author="Costin"
 ## Challenge 4
 
 - Fai il fork del repository [challenges][challenges].
-- Crea una directory personale con la tua email di commit in `challenge-3/deliverable/`.
-- Crea un file `.gitkeep` in `challenge-3/sandbox/commit-email@example.com`.
+- Crea una directory personale con l'username di gitlab in `challenge-3/deliverable/`.
+- Crea un file `.gitkeep` in `challenge-3/sandbox/nome-utente-gitlab`.
 - Aggiungi le modifiche al repository fork.
 - Inizia una _Merge Request_ dal repository fork a quello padre [challenges][challenges].
 
-> Come `commit-email@example.com` utilizza l'email che usi per i commit.
+> Come `nome-utente-gitlab` utilizza il tuo nome utente GitLab. 
