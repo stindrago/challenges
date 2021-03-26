@@ -20,7 +20,7 @@ La difficoltà delle _challenge_ sono misurate in _mal di testa_ 🤕. Più _mal
 | [Challenge 1][dir-challenge-1] - Crea una macchina virtuale Ubuntu Server                   |         🤕 |
 | [Challenge 2][dir-challenge-2] - Naviga nella shell                                 |       🤕🤕 |
 | [Challenge 3][dir-challenge-3] - Utilizza git e Gitlab                              |       🤕🤕 |
-| [Challenge 4][dir-challenge-4] - [2020-03-27]: Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
+| [Challenge 4][dir-challenge-4] - [2021-03-27]: Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
 | [Challenge 5][dir-challenge-5] - TODO: WIFI Penetration in modalita promiscua               | 🤕🤕🤕🤕🤕 |
 
 ## Partecipa Alla Challenge
