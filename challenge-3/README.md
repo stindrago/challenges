@@ -191,7 +191,7 @@ git clone git@gitlab.com:stindrago/primo-repo.git       # clona il repository
 
 I branch (ramo) vengono utilizzati per sviluppare funzionalità isolate l'una dall'altra. Il branch principale è il _master_ e viene creato quando crei il repository. Ci sono diversi workflow, ogni uno usa il branching in modo diverso.
 
-[!branching][image-branching]
+![branching][image-branching]
 
 Crea due nuovi branch `feature-a` e `feature-b`. Git ti posiziona automaticamente nel branch creato.
 
@@ -306,8 +306,8 @@ git log --author="Costin"
 ## Challenge 3
 
 - Fai il fork del repository [challenges][challenges].
-- Crea una directory personale con l'username di gitlab in `challenge-3/deliverable/`.
-- Crea un file `.gitkeep` in `challenge-3/sandbox/nome-utente-gitlab`.
+- Crea una directory personale con l'username di GitLab in `challenge-3/deliverable/`.
+- Crea un file `.gitkeep` in `challenge-3/deliverable/nome-utente-gitlab`.
 - Aggiungi le modifiche al repository fork.
 - Inizia una _Merge Request_ dal repository fork a quello padre [challenges][challenges].
 
