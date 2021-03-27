@@ -14,5 +14,5 @@ then
     chattr +i /home/$user/.profile
     chattr +i /home/$user/.bashrc
     echo "Fine"
-    printf 'Cambia utente con il comando:\x1b\x5b1;31;40m\tsudo -l '$user'\n'
+    printf 'Cambia utente con il comando:\x1b\x5b1;31;40m\tsu -l '$user'\n'
 fi
