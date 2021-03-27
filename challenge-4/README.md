@@ -113,10 +113,10 @@ Per provare che le modifiche siano avvenute veramente e che non e' stato un truc
 
 - Cos'è la vulnerabilità _Baron Samedit_.
 - Come fare il downgrade di un pacchetto.
--  Come creare un nuovo utente.
+- Come creare un nuovo utente.
 - Come compilare un programma.
 - Come ottenere i _permessi di root_ attraverso un exploit.
--  Come aggiungere un'utente al gruppo _sudo_.
+- Come aggiungere un'utente al gruppo _sudo_.
 
 ## Challenge
 
@@ -129,5 +129,10 @@ sudo adduser challenge-4
 curl https://gitlab.com/pdpfsug/mkspace/challenges/-/raw/master/challenge-4/assets/challenge-4-setup.sh | sudo bash -s challenge-4 challenge-ubuntu
 su -l challenge-4
 ```
+
+- `curl https://gitlab.com/pdpfsug...` serve a scaricare lo script.
+- `sudo bash -s challenge-4 challenge-ubuntu` serve ad eseguire lo script.
+  - `challenge-4` e' l'utente che hai creato.
+  - `challenge-ubuntu` e' il hostname della tua macchina. Per visualizzare l'hostname della tua macchina usa il comando `hostname`. 
 
 > Buona fortuna.
