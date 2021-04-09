@@ -15,21 +15,21 @@ La difficoltà delle _challenge_ sono misurate in _mal di testa_ 🤕. Più _mal
 
 ## Challenge Disponibili
 
-| Challenge                                                                                   | Difficoltà |
-|---------------------------------------------------------------------------------------------|-----------:|
-| [Challenge 1][dir-challenge-1] - Crea una macchina virtuale Ubuntu Server                   |         🤕 |
-| [Challenge 2][dir-challenge-2] - Naviga nella shell                                 |       🤕🤕 |
-| [Challenge 3][dir-challenge-3] - Utilizza git e Gitlab                              |       🤕🤕 |
-| [Challenge 4][dir-challenge-4] - [2021-03-27]: Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
-| [Challenge 5][dir-challenge-5] - TODO: WIFI Penetration in modalita promiscua               | 🤕🤕🤕🤕🤕 |
+| Challenge                                                                             | Difficoltà |
+|---------------------------------------------------------------------------------------|-----------:|
+| [Challenge 1][dir-challenge-1] - Crea una macchina virtuale Ubuntu Server             |         🤕 |
+| [Challenge 2][dir-challenge-2] - Naviga nella shell                                   |       🤕🤕 |
+| [Challenge 3][dir-challenge-3] - Utilizza git e Gitlab                                |       🤕🤕 |
+| [Challenge 4][dir-challenge-4] - Privilege escalation: [CVE-2021-3156][cve-2021-3156] |   🤕🤕🤕🤕 |
+| [Challenge 5][dir-challenge-5] - [2020-03-10] WiFi penetration in modalita promiscua  | 🤕🤕🤕🤕🤕 |
 
 ## Partecipa Alla Challenge
 
 Se vuoi partecipare alla challenge e pubblicare i tuoi risultati segui le prossime istruzioni.
 
-1. Fai il fork di questo progetto.
+1. Fai il _fork_ di questo progetto.
 2. Inserisci i file in una nuova cartella `challenge-N/deliverable/gitlab-username/`, con `gitlab-username` il tuo nome utente Gitlab.
-3. Invia una merge request per rendere disponibile il tuo contributo.
+3. Invia una _merge request_ per condividere la soluzione.
 
 > Sei non sai come si fa leggi la [challenge-3][dir-challenge-3].
 
@@ -47,6 +47,8 @@ La spiegazione della challenge deve avvenire nel file `README.md` all'interno di
 
 All'interno della stessa directory devono essere presenti 3 sottodirectory:
 
-- `sandbox/`: con una sottodirectory per ogni partecipante, costituisce un parco giochi dove il partecipante può sperimentare;
-- `deliverable/`: con una sottodirectory per ogni partecipante, contiene l'output prodotto dal partecipante stesso;
-- `assets/`: contiene materiale di base predisposto da chi imposta la `challenge`;
+- `sandbox/`: con una sottodirectory per ogni partecipante, costituisce un parco giochi dove il partecipante può sperimentare.
+- `deliverable/`: con una sottodirectory per ogni partecipante, contiene l'output prodotto dal partecipante stesso.
+- `assets/`: contiene materiale di base predisposto da chi imposta la `challenge`.
+
+In ciascuno di queste directory deve essere presente un file `.placeholder` per aggiungere anche le directory vuote. 
