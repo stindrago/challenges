@@ -4,7 +4,7 @@
 [merge-request-gitlab]: https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html
 [dir-challenge-3]: ../challenge-3
 
-# Challenge 5 - Advent Of Code
+# Challenge 6 - Advent Of Code
 
 Benvenuto nella sesta challenge, difficoltà 🤕➕➕.
 In questa challenge ti addestrerai ad essere un programmatore di Babbo Natale.
