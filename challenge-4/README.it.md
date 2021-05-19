@@ -1,3 +1,10 @@
+---
+title: "Challenge 4"
+summary: Benvenuto nella quarta challenge, difficoltà 🤕🤕🤕🤕. In questa challenge prenderai i panni di un _hacker_.
+date: 2021-03-27
+tags: ["challenge-series"]
+---
+
 [cve-2021-3156]: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3156
 [qualys]: https://en.wikipedia.org/wiki/Qualys
 [qualys-blog-post]: https://blog.qualys.com/vulnerabilities-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit?_ga=2.226100442.1385623629.1616771039-1815361758.1616771039

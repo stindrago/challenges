@@ -1,3 +1,10 @@
+---
+title: "Challenge 6"
+summary: Benvenuto nella sesta challenge, difficoltà 🤕  . In questa challenge ti addestrerai ad essere un programmatore di Babbo Natale.
+date: 2021-05-06
+tags: ["challenge-series"]
+---
+
 [aoc]: https://adventofcode.com
 [aoc-2021-day-01]: https://adventofcode.com/2020/day/1
 [fork-gitlab]: https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html

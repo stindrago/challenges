@@ -1,3 +1,10 @@
+---
+title: "Challenge 2"
+summary: Benvenuto nella seconda challenge, difficoltà 🤕🤕. In questa challenge farai eccessivo uso della shell (terminale).
+date: 2021-03-13
+tags: ["challenge-series"]
+---
+
 [challenge-3]: ../challenge-3/
 
 # Challenge 1 - Naviga La Shell

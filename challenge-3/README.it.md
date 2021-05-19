@@ -1,3 +1,10 @@
+---
+title: "Challenge 3"
+summary: Benvenuto nella terza challenge, difficoltà 🤕🤕. In questa challenge conoscerai i vantaggi ad eseguire il controllo di versione dei file.
+date: 2021-03-20
+tags: ["challenge-series"]
+---
+
 [challenge-4]: ../challenge-4/
 [download-git-mac-os]: http://git-scm.com/download/mac
 [download-git-windows]: http://msysgit.github.io/
@@ -8,6 +15,9 @@
 [image-branching]: https://rogerdudler.github.io/git-guide/img/branches.png
 
 # Challenge 3 - Utilizza git e GitLab
+
+Benvenuto nella terza challenge, difficoltà 🤕🤕.
+In questa challenge conoscerai i vantaggi ad eseguire il controllo di versione dei file.
 
 ## In Questa Challenge
 

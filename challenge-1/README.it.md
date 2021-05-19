@@ -1,3 +1,10 @@
+---
+title: "Challenge 1"
+summary: Benvenuto nella prima challenge, difficoltà 🤕. In questa challenge scoprirai come installare e configurare una macchina linux.
+date: 2021-03-06
+tags: ["challenge-series"]
+---
+
 [gitlab]: https://gitlab.com/
 [ubuntu-downlad-server]: https://ubuntu.com/download/server/
 [ubuntu-server-manual-download]: https://releases.ubuntu.com/20.04.2/ubuntu-20.04.2-live-server-amd64.iso/
@@ -9,7 +16,8 @@
 
 # Challenge 1 - Installa Ubuntu
 
-Benvenuto. In questa challenge scoprirai come installare e configurare una macchina linux. Questa è solo la prima challenge e presto ne seguiranno altre più difficili. Concentriamoci inizialmente a fornirti gli strumenti necessari per completare le challenge future.
+Benvenuto nella prima challenge, difficoltà 🤕.
+In questa challenge scoprirai come installare e configurare una macchina linux.
 
 ## In Questa Challenge
 

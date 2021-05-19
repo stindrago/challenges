@@ -1,3 +1,10 @@
+---
+title: "Challenge 5"
+summary: Benvenuto nella quinta challenge, difficoltà 🤕🤕🤕🤕🤕. In questa challenge prenderai i panni di un agente di sicurezza informatica della rete.
+date: 2021-04-03
+tags: ["challenge-series"]
+---
+
 [minecraft]: https://www.minecraft.net
 [factorio]: https://www.factorio.com
 [parrot-sec-os]: https://download.parrot.sh/parrot/iso/4.11/Parrot-security-4.11_amd64.iso.mirrorlist
